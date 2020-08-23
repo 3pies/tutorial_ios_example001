@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var repository = RepositoryCovid19Stats()
+    
     var body: some View {
         Text("Hello, World!")
     }
